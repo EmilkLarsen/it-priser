@@ -41,7 +41,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        chain: [obi_de, globus_de]
+        chain: [obi_it]
     steps:
       - uses: actions/checkout@v4
         with:

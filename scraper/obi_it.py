@@ -5,8 +5,8 @@ import re
 import gzip
 from common import get, sitemap_urls, sane_price, valid_ean, write_jsonl, pmap
 
-BASE = "https://www.obi.de"
-OUT = "data/latest/obi_de.jsonl"
+BASE = "https://www.obi-italia.it"
+OUT = "data/latest/obi_it.jsonl"
 PROD_RE = re.compile(r"/p/\d+")
 OFFER_RE = re.compile(
     r'"priceCurrency":\s*"([A-Z]{3})",\s*"price":\s*([0-9.]+),'
@@ -28,7 +28,7 @@ def _get_maybe_gz(url):
 
 
 def fetch_url_list(limit=None):
-    idx = _get_maybe_gz(f"{BASE}/sitemaps/obi_de_de/de_pdp_index.xml")
+    idx = _get_maybe_gz(f"{BASE}/sitemaps/obi_it_it/it_pdp_index.xml")
     files = sitemap_urls(idx)
     urls = []
     for f in files:
@@ -51,8 +51,8 @@ def handle(u, html):
     t = re.search(r"<title[^>]*>([^<]+)</title>", html)
     name = (t.group(1).split("|")[0].strip() if t else u.rsplit("/", 1)[-1])
     return [{
-        "chain": "obi_de",
-        "country": "de",
+        "chain": "obi_it",
+        "country": "it",
         "currency": m.group(1),
         "sku": sku,
         "ean": None,
