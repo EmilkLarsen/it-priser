@@ -1,4 +1,4 @@
-"""OBI.de (EUR, Germany #2) — gzipped sitemap index -> product sitemaps
+"""OBI Italia (EUR, Italy) — gzipped sitemap index -> product sitemaps
 (sitemap_obi-products_N.xml); URLs /p/<id>/<slug>; ld+json offers list with
 price + priceCurrency + availability."""
 import re
