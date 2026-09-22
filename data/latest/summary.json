@@ -1,0 +1,13 @@
+{
+ "date": "2026-09-22",
+ "total_rows": 39,
+ "chains": {
+  "obi_it": {
+   "products": 39,
+   "price_changes": 0,
+   "suspicious_changes": 0,
+   "expired": 0,
+   "seconds": 24.0
+  }
+ }
+}
