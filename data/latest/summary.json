@@ -1,5 +1,5 @@
 {
- "date": "2026-10-07",
+ "date": "2026-10-08",
  "total_rows": 89831,
  "chains": {
   "obi_it": {
@@ -7,7 +7,7 @@
    "price_changes": 1,
    "suspicious_changes": 0,
    "expired": 0,
-   "seconds": 9.9
+   "seconds": 8.8
   }
  }
 }
