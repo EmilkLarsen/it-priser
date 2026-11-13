@@ -3,8 +3,11 @@
  "total_rows": 101014,
  "chains": {
   "obi_it": {
-   "error": "collapse guard: 30 rows vs 101014 before",
-   "kept_previous": true
+   "products": 38226,
+   "price_changes": 0,
+   "suspicious_changes": 0,
+   "expired": 0,
+   "seconds": 18003.5
   }
  }
 }
