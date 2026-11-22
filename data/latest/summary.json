@@ -3,11 +3,11 @@
  "total_rows": 98934,
  "chains": {
   "obi_it": {
-   "products": 79076,
+   "products": 98931,
    "price_changes": 0,
    "suspicious_changes": 0,
    "expired": 0,
-   "seconds": 18003.4
+   "seconds": 9050.7
   }
  }
 }
